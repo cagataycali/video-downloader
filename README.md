@@ -3,7 +3,7 @@
 ```
 npm i video-downloader --save
 ```
-
+[![Code Climate](https://codeclimate.com/github/ccali14/video-downloader/badges/gpa.svg)](https://codeclimate.com/github/ccali14/video-downloader)
 # Using
 
 ```
