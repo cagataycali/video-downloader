@@ -7,7 +7,7 @@ npm i video-downloader --save
 # Using
 
 ```
-var download = require('./index');
+var download = require('video-downloader');
 
 
 var videoUrl = 'http://localhost/test.webm'
