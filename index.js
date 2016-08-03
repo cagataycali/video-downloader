@@ -21,7 +21,6 @@ module.exports = function downloader(videoUrl, outputName, outputDir) {
     http.get(videoUrl, (response) => {
       const stream = response.pipe(videoFile);
       stream.on('finish', () => {
-        console.log('Download finised');
         resolve(filePath);
       });
     });
